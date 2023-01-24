@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary-color: hsl(198deg, 75%, 29%, 1);
+  --secondary-color: #ffffff;
+  --card-color: #ccc;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 300px;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 6em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background: var(--primary-color);
+}
+
+.leftView {
+  padding: 0rem 1rem;
+  width: max-content;
+  min-width: max-content;
+}
+
+.leftView h2 {
+  text-transform: capitalize;
+  font-size: 2.3rem;
+  color: var(--secondary-color);
+}
+
+.leftView em {
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
+.rightView .rightView_contact span {
+  color: var(--secondary-color);
+}
+
+.breakLines {
+  margin: 0.2rem 0rem;
+}
+
+.rightView {
+  display: flex;
+  flex-direction: column;
+  min-width: max-content;
+  padding: 0rem 1rem;
+}
+
+.rightView .sec span {
+  align-self: flex-start;
+}
+.rightView span {
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}
+
+.rightView_contact .logo i {
+  transform: rotateY(180deg);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background-color: var(--secondary-color);
+}
+
+.main_heading {
+  padding: 0rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.main_heading h4 {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.form {
+  width: 30%;
+  min-width: 300px;
+}
+
+.form_input_wrap {
+  width: 100%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+.form_input_wrap label {
+  text-transform: capitalize;
+}
+
+.form_input_wrap input {
+  height: 2.5em;
+  padding: 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 0.5rem;
+  border: 2px solid var(--primary-color);
+}
+
+.rem {
+  width: 100%;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.rem input {
+  margin-right: 0.5rem;
+}
+
+.rem span {
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.btn_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_wrapper button {
+  width: 30%;
+  height: 2em;
+  text-transform: capitalize;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn_wrapper button:active {
+  background-color: rgb(133, 133, 233);
+}

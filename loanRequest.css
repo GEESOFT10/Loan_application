@@ -1,0 +1,81 @@
+@import url("./sign_up.css");
+
+.form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.allforms {
+  padding: 1rem 0rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.form_one {
+  flex-grow: 0.4;
+  min-width: 300px;
+}
+
+.form_two {
+  flex-grow: 0.4;
+  min-width: 300px;
+}
+
+.below_form_area {
+  width: 100%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 2.5em;
+  margin-bottom: 0.7rem;
+}
+
+.IdMeans {
+  width: 10%;
+  min-width: 300px;
+  align-self: center;
+}
+
+.upload {
+  width: 10%;
+  min-width: 300px;
+  align-self: center;
+}
+
+.IdMeans span {
+  font-size: small;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.upload label {
+  font-size: small;
+  color: blue;
+  cursor: pointer;
+}
+
+.fileUpload {
+  display: none;
+}
+
+.terms {
+  margin-bottom: 1rem;
+}
+
+.terms > span {
+  size: 2rem;
+  margin-right: 1rem;
+}

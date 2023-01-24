@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./sign_in.css" />
+    <title>Sign_in</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <header class="header">
+          <div class="leftView">
+            <h2>EcoBank</h2>
+            <hr class="breakLines" />
+            <em class="leftView_text">the pan african bank</em>
+          </div>
+          <div class="rightView">
+            <div class="rightView_contact">
+              <span>contact us</span>
+              <span class="logo"><i class="fa fa fa-phone"></i></span>
+            </div>
+            <div class="sec"><span>EN ()</span></div>
+          </div>
+        </header>
+
+        <main class="main">
+          <div class="main_heading">
+            <h4>Sign In</h4>
+          </div>
+          <form class="form" action="javascript:;">
+            <div class="form_input_wrap">
+              <label for="account">account number</label>
+              <input
+                type="text"
+                name="account"
+                id="account"
+                placeholder="Enter account number"
+              />
+            </div>
+            <div class="form_input_wrap">
+              <label for="password">password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Enter password"
+              />
+            </div>
+            <div class="section">
+              <div class="rem">
+                <input type="checkbox" name="remember" /><span>remember</span>
+              </div>
+              <div class="forg">
+                <span>Forgot Password</span>
+              </div>
+            </div>
+            <div class="btn_wrapper">
+              <button
+                class="login"
+                type="button"
+                onclick="handleSubmitSignIn()"
+              >
+                Log In
+              </button>
+              <button type="button">
+                <a href="./index.html"> Sign Up</a>
+              </button>
+            </div>
+          </form>
+        </main>
+      </div>
+    </div>
+    <script src="./javascript/signin.js"></script>
+  </body>
+</html>

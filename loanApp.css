@@ -1,0 +1,56 @@
+@import url("./sign_up.css");
+
+.loans {
+  width: 80%;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 60vh;
+}
+
+.main_heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.main_heading h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.card {
+  margin-bottom: 1rem;
+  width: 40%;
+  min-width: 300px;
+  flex-grow: 0.2;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  padding: 0rem 1rem;
+  justify-content: space-evenly;
+  min-width: 300px;
+  box-shadow: 0px 0px 5px var(--primary-color);
+  background-color: var(--card-color);
+  border-radius: 10px;
+  transition: transform 2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10%);
+}
+
+.card span:last-of-type {
+  width: 50%;
+}
+
+.card span i {
+  color: var(--primary-color);
+}
+@media only screen and (max-width: 800px) {
+  .card {
+    flex-grow: 1;
+  }
+}

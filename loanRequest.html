@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./loanRequest.css" />
+    <title>Loan Request</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <header class="header">
+          <div class="leftView">
+            <h2>EcoBank</h2>
+            <hr class="breakLines" />
+            <em class="leftView_text">the pan african bank</em>
+          </div>
+          <div class="rightView">
+            <div class="rightView_contact">
+              <span>contact us</span>
+              <span class="logo"><i class="fa fa fa-phone"></i></span>
+            </div>
+            <div class="sec"><span>EN ()</span></div>
+          </div>
+        </header>
+
+        <main class="main">
+          <div class="main_heading">
+            <h4>loan requirement</h4>
+          </div>
+          <form class="form" action="javascript:;">
+            <div class="allforms">
+              <div class="form_one">
+                <div class="form_input_wrap">
+                  <label for="bank verification number"
+                    >bank verification number (BVN)</label
+                  >
+                  <input
+                    type="number"
+                    name="bankVN"
+                    id="bankVN"
+                    placeholder="Enter bank verification number(BVN)"
+                  />
+                </div>
+                <div class="form_input_wrap">
+                  <label for="company">company</label>
+                  <input
+                    type="text"
+                    name="company"
+                    id="company"
+                    placeholder="Enter company"
+                  />
+                </div>
+                <div class="form_input_wrap">
+                  <label for="DOE">date of employment</label>
+                  <input
+                    type="text"
+                    name="DOE"
+                    id="DOE"
+                    placeholder="Enter Date of Employment"
+                  />
+                </div>
+              </div>
+
+              <div class="form_two">
+                <div class="form_input_wrap">
+                  <label for="loanAmount">loan amount</label>
+                  <input
+                    type="text"
+                    name="loanAmount"
+                    id="loanAmount"
+                    placeholder="Enter loan amount"
+                  />
+                </div>
+                <div class="form_input_wrap">
+                  <label for="beneNumber">beneficial number</label>
+                  <input
+                    type="Number"
+                    name="beneNumber"
+                    id="beneNumber"
+                    placeholder="Enter beneficial number"
+                  />
+                </div>
+                <div class="form_input_wrap">
+                  <label for="tenure">tenure</label>
+                  <input
+                    type="Number"
+                    name="tenure"
+                    id="tenure"
+                    placeholder="Enter tenure"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="below_form_area">
+              <div class="section">
+                <div class="IdMeans">
+                  <span>means of identification</span>
+                </div>
+                <div class="upload">
+                  <label for="file">Please upload a jpg, png, pdf</label
+                  ><input
+                    type="file"
+                    id="file"
+                    name="file"
+                    accept="[pgn, jpd,pdf]"
+                    class="fileUpload"
+                  />
+                </div>
+              </div>
+
+              <div class="terms">
+                <input type="checkbox" name="agreement" />
+                <span
+                  >Agreement to our <a href="#">terms</a> and
+                  <a href="#">condition</a>
+                </span>
+              </div>
+
+              <div class="btn_wrapper">
+                <button type="button" onclick="handleSubmitSLoanRequireMent()">
+                  confirm loan
+                </button>
+              </div>
+            </div>
+          </form>
+        </main>
+      </div>
+    </div>
+    <script src="./javascript/loanRequirement.js"></script>
+  </body>
+</html>
