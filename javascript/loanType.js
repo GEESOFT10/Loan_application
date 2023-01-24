@@ -26,8 +26,7 @@ const loadLoanType = () => {
 
         card.addEventListener("click", () => {
           console.log("clicked");
-          return (window.location.href =
-            "/Hackathon/Hackathon/loanRequest.html");
+          return (window.location.href = "/Loan_application/loanRequest.html");
         });
       })
     : null;

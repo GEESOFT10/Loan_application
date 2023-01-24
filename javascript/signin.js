@@ -10,5 +10,5 @@ const handleSubmitSignIn = () => {
     return window.alert("Password must be at least 8 characters");
   }
 
-  window.location.href = "/Hackathon/Hackathon/loantypes.html";
+  window.location.href = "/Loan_application/loantypes.html";
 };
