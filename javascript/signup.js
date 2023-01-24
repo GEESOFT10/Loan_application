@@ -9,5 +9,8 @@ const handleSubmitSignup = () => {
   } else if (password.value.length < 8) {
     return window.alert("Password must be at least 8 characters");
   }
-  window.location.href = "/Hackathon/Hackathon/sign_in.html";
+  window.location = "/Loan_application/sign_in.html";
 };
+console.log("location.origin :>> ", location.origin);
+/* Logging the location object to the console. */
+console.log("location :>> ");
