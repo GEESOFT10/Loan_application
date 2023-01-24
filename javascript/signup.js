@@ -11,6 +11,3 @@ const handleSubmitSignup = () => {
   }
   window.location = "/Loan_application/sign_in.html";
 };
-console.log("location.origin :>> ", location.origin);
-/* Logging the location object to the console. */
-console.log("location :>> ");
